@@ -10,3 +10,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 # Built with
 - HTML
 - CSS
+  
+# Demo Link - [Live](https://startling-biscotti-c2a2e3.netlify.app)
