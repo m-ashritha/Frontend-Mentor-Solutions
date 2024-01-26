@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card solution
 
-(./assets/images/BlogPreviewCard.JPG)
+![](./assets/images/BlogPreviewCard.JPG)
 
 ## Welcome! 👋
 # Frontend Mentor - Blog preview card solution
