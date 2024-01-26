@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.blog-card {
+    max-width: 280px;
+    background-color: white;
+    padding: 20px 10px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 7px 8px black;
+    border-style: solid;
+    border-width: thin;
+    font-family: 'Figtree', sans-serif;
+}
+img {
+    max-width: 270px;
+    border-radius: 10px;
+}
+button {
+    background-color: hsl(47, 88%, 63%);
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px 8px 5px 8px;
+    margin: 10px 0px 0px 0px;
+}
+.learning {
+    font-size: smaller;
+    font-weight:700;
+}
+.date {
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 7%);
+}
+.text {
+    font-size: 12.5px;
+    color: hsl(0, 0%, 50%);
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.fevicon {
+    height: 20px;
+    width: 20px;
+}
+.author {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 5px;
+}
