@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+html{
+    font-family: 'Karla', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+main {
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.grid3 {
+    border-bottom-left-radius: 10px;
+}
+.grid4 {
+    border-bottom-right-radius: 10px;
+}
+.grid3 , .grid4 {
+    width: 50%;
+}
+@media (max-width: 600px) {
+    .grid1 {
+        width: 50%;
+    }
+    .grid2 {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid3 {
+        border-bottom-left-radius: 0px;
+    }
+    .grid4 {
+        border-bottom-left-radius: 10px;
+    }
+}
+.grid1, .grid3, .grid4 {
+    padding: 30px 30px 30px 30px;
+}
+.grid1 h1{
+    padding: 15px 0px 20px 0px;
+}
+.grid1 h2, .grid3 h2, .grid4 h2 {
+    padding-bottom: 15px;
+}
+h1 {
+    color: hsl(179, 66%, 39%);
+    font-size: x-large;
+
+}
+h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: large;
+}
+h3 {
+    font-size: medium;
+}
+.grid1 {
+    background-color: white;
+}
+.grid3 {
+    background-color: hsl(179, 62%, 43%);
+}
+.grid4 {
+    background-color: hsl(178, 60%, 48%);
+}
+.grid1 h3 {
+    color: hsl(218, 22%, 67%);
+}
+.grid2, .grid4 h2, .grid3 h2 {
+    color: white;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 15px 60px 15px 60px ;
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+}
+span {
+    font-size: 30px;
+}
+h3 {
+    line-height: 22px;
+    font-weight: 400;
+    font-size: smaller;
+}
+.grid3 h3{
+    line-height: 30px;
+}
