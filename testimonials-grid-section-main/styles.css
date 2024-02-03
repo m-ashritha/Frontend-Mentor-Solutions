@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;400;500;600&display=swap');
+html {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+    background-color: hsl(210, 46%, 95%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows:250px 250px;
+    gap: 25px;
+}
+@media (max-width:1100px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+    }
+}
+@media (max-width:500px){
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.grid1, .grid5 {
+    grid-column: span 2;
+}
+.grid3 {
+    grid-row: span 2;
+}
+.grid1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.grid2 {
+    background-color: hsl(217, 19%, 35%);
+}
+.grid3 {
+    background-color: white;
+}
+.grid4 {
+    background-color: white;
+}
+.grid5 {
+    background-color: hsl(219, 29%, 14%);
+}
+.grid1, .grid2, .grid5 {
+    color: white;
+}
+.grid3, .grid4 {
+    color:  hsl(217, 19%, 35%);
+}
+.grid1, .grid2, .grid3, .grid4, .grid5 {
+    padding: 20px ;
+    border-radius: 10px;
+}
+.title {
+    display: flex;
+}
+img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid #936dd0;
+    margin-right: 15px;
+}
+h1 {
+    font-size: large;
+}
+h2 {
+    font-size: 12px;
+    font-weight: 400;
+}
+.author h2 {
+    font-size: medium;
+    font-weight: 500;
+    margin: 0;
+}
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0;
+    margin-top: 10px;
+}
